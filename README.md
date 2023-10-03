@@ -16,6 +16,11 @@ should be turned into these lines in blue:
 
 ![Grid with line around blocks](imgs/grid-with-line.svg)
 
+The service needs to:
+* output geojson (a type of json format)
+* be able to complete processing in less than 30 seconds
+* handle at least ten concurrent pieces of processing
+
 ## Test input format
 The devs have done some basic testing while writing the code. 
 They've made a test harness that takes in a string of text 
@@ -33,5 +38,5 @@ For example, the grid above would be represented like this:
 ```
 
 ## Please come prepared to discuss
-1. examples of grid inputs you'd want to put through the system to see how what lines come out
-2. other things you'd want to check in the system 
+1. examples of grid inputs you'd want to put through the system to see how it handled particular cases
+2. what other checks you would want to carry out to verify the system is operating correctly (e.g. per the requirements above)
