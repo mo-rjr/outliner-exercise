@@ -22,7 +22,7 @@ The service needs to:
 * handle at least ten concurrent pieces of processing
 
 ## Test input format
-The devs have done some basic testing while writing the code. 
+The development team have done some basic testing while writing the code. 
 They've made a test harness that takes in a string of text 
 where a dot . represents an empty grid square and an X represents a full grid square.
 
